@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset='UTF-8'/>
+     <meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"><script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script><script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script><link href="https://bukadong.likeadream.repl.co/style.css" rel="stylesheet" type="text/css" /><script src="https://bukadong.likeadream.repl.co/script.js"></script>
+     <title>HAI CANTIK..</title>
+</head>
+
+<body>
+<style>
+body{background-image: url("bglove4.jpg");background-repeat: no-repeat;background-size: 100% 100% 100%;}
+</style><div id="bodyblur"></div>
+
+<div style="display:none"> 
+<audio controls autoplay>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="Htb.mp3" type="audio/mpeg">
+</audio>
+</div>
+
+<div style="display:none" id="konten"><div id="fotoloveu"><div class="image">
+<img src="love.jpg" id="animasi" width="170px" height="170px"/></div><span id="penutup" style="font-size:1.1rem;"></span></div>
+
+<div id="tomAksi"><a class='button' onClick='reaksi();'>Klik ya cantik..</a></div>
+
+</div>
+
+<script>
+var u=0,penutup;penutup = "I Love You <3";
+
+function play() {
+var audio = new Audio('https://bukadulu.likeadream.repl.co/Dandelions.mp3');audio.play();}         
+
+
+ async function reaksi(){
+   await swals.fire('Dah ah:v', 'Sekian aja dulu ya wkwk');
+   await swals.fire('Maaf ya rada ga jelas', 'wkwk');
+   await swals.fire('Dan ngerepotin juga hehe :v');
+   await swals.fire('Terimakasih suda mau di buka <3'); 
+   await swals.fire('Wassalamualaikum wr.wb');  
+   } 
+</script>
+ 
+<script type="text/javascript">            
+            var today = new Date();var date = today.getDate()+'/'+(today.getMonth()+1)+'/'+today.getFullYear()+'.';var dateTime = date;
+            const swals = Swal.mixin({
+                backdrop: 'rgba(0,0,123,0.4)', confirmButtonColor: '#55009E', cancelButtonColor: '#FFCA00', allowOutsideClick: false,
+            });
+            async function mulai(){
+                 await swals.fire({
+                  title: 'Haii.. sebenarnya aku gatau mau bilang apa, tapi aku coba ya..', 
+                  imageUrl: 'bglove.jpg',
+                  imageWidth: 120, imageHeight: 120,
+                 });   	
+                 await swals.fire({
+                  title: 'Aku tau kemarin aku ngelakuin kesalahan, banyak perbedaan pemikiran antara kita berdua ',
+                  imageUrl: 'bglove2.jpg',
+                  imageWidth: 120, imageHeight: 120,
+                 });
+                 await swals.fire({
+                  title: 'Aku mau minta maaf atas kesalahan kemarin dengan cara yang sedikit berbeda ini dan aku harap kamu maafin aku.',
+                  imageUrl: 'bglove3.jpg',
+                  imageWidth: 120, imageHeight: 120,
+                 });
+                 await swals.fire({
+                  title: 'Aku sayang kamu, dan bukan berarti hal kemarin itu aku ga bela kamu, aku cuma mau wanita aku ini bisa sabar',
+                  imageUrl: 'bglove5.jpg',
+                  imageWidth: 120, imageHeight: 120,
+                 });
+                 await swals.fire({
+                  title: 'Bisa nahan emosinya dan terjaga perasaannya.. bukan aku gamau bela kamu',
+                  imageUrl: 'bglove.jpg',
+                  imageWidth: 120, imageHeight: 120,
+                 });
+                 await swals.fire({
+                  title: 'Maafin aku ya karna pemikiran beda aku kamu jadi gamood, jadi sakit juga karna aku ajak ujan ujanan.',
+                  imageUrl: 'bglove2.jpg',
+                  imageWidth: 120, imageHeight: 120,
+                 });
+                 await swals.fire({
+                  title: 'Aku sayang kamu, bahkan melebihi sayang aku untuk diri aku sendiri, aku selalu ingin kamu.',
+                  imageUrl: 'bglove3.jpg',
+                  imageWidth: 120, imageHeight: 120,
+                 });
+                 await swals.fire({
+                  title: 'Semangat ya sayang, aku selalu dukung kamu dan selalu bangga dengan setiap proses kamu.',
+                  imageUrl: 'bglove5.jpg',
+                  imageWidth: 120, imageHeight: 120,
+                 });
+                 await swals.fire({
+                  title: 'I LOVE U MORE MAHARANI SAFITRI <3',
+                  imageUrl: 'bglove.jpg',
+                  imageWidth: 120, imageHeight: 120,
+                 });
+                 play();ketik();expl();
+            }            
+            mulai();
+</script>
+
+
+
+<script>
+  function tombol() {document.getElementById('tomAksi').style.visibility = "visible";document.getElementById('tomAksi').style.opacity = "1";}
+  async function expl(){aksifoto();document.getElementById('bodyblur').style.opacity = "1";document.getElementById('bodyblur').style.visibility = "visible";setTimeout(duar,200);}
+  function aksifoto(){var e1 = document.getElementById('animasi');e1.classList.add("degdeg");document.getElementById('fotoloveu').style.opacity = "1";document.getElementById('fotoloveu').style.height = "180px";document.getElementById('fotoloveu').style.margin = "50px 0 0 0";}
+  
+async function duar(){
+document.getElementById('konten').style.top = "0";
+document.body.style.backgroundColor = "#000";
+}
+
+const body = document.querySelector("body");
+function createHeart() {
+    const heart = document.createElement("div");
+    heart.className = "fas fa-heart";
+    heart.style.left = (Math.random() * 90)+"vw";
+    heart.style.animationDuration = (Math.random()*3)+2+"s"
+    body.appendChild(heart);
+}
+setInterval(function name(params) {
+    var heartArr = document.querySelectorAll(".fa-heart")
+    if (heartArr.length > 50) {
+       heartArr[0].remove()
+    }
+},100);
+
+  function ketik() {
+    if(u<penutup.length){
+      document.getElementById("penutup").innerHTML += penutup.charAt(u);
+      u++;
+      setTimeout(ketik,110);
+    }
+    if(u==penutup.length){
+    tombol();setInterval(createHeart,300);
+    }
+  }
+</script>
+</body>
+</html>
